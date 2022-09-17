@@ -1,0 +1,8 @@
+=============System-Test==================
+create user progra identified by progra
+default tablespace users
+temporary tablespace temp
+quota unlimited on users;
+
+grant create session, create table, create procedure to progra;
+===========================================
